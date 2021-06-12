@@ -1,4 +1,4 @@
-package com.example.hruser.entities;
+package com.devsuperior.hruser.entities;
 
 import java.io.Serializable;
 
@@ -8,12 +8,14 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 @EqualsAndHashCode
 @NoArgsConstructor
+@AllArgsConstructor
 @Data
 @Entity
 @Table(name = "tb_role")

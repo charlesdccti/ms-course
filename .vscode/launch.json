@@ -1,0 +1,50 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch HrUserApplication",
+            "request": "launch",
+            "mainClass": "com.devsuperior.hruser.HrUserApplication",
+            "projectName": "hr-user"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HrEurekaServerApplication",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.devsuperior.hreurekaserver.HrEurekaServerApplication",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HrEurekaServerApplication<hr-eureka-server2>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.devsuperior.hreurekaserver.HrEurekaServerApplication",
+            "projectName": "hr-eureka-server2",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HrApiGatewayZuulApplication<hr-api-gateway-zuul>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.devsuperior.hrapigatewayzuul.HrApiGatewayZuulApplication",
+            "projectName": "hr-api-gateway-zuul",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HrConfigServerApplication<hr-config-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.devsuperior.hrconfigserver.HrConfigServerApplication",
+            "projectName": "hr-config-server",
+            "args": ""
+        }
+    ]
+}
