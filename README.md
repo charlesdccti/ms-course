@@ -1,4 +1,10 @@
-# Curso Microsserviços Java com Spring Boot e Spring Cloud
+# Curso Microsserviços Spring Boot e Spring Cloud com Java 11 
+### Stack tecnologica que usamos: 
+- Fase 1: RestTemplate para Comunicação simples, FeignClient, Ribbon load balancing;
+- Fase 2: Eureka-server, Zuul-server , Hystrix para Tolerância a falhas;
+- Fase 3: Config-server para Configuração centralizada;
+- Fase 4: Spring security para autenticação e autorização - Token JWT, CORS;
+
 
 # Fase 1: Comunicação simples, Feign, Ribbon
 
